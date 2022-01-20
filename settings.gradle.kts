@@ -1,1 +1,1 @@
-rootProject.name = "parser"
+rootProject.name = "multikit-parser"

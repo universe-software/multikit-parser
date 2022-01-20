@@ -96,7 +96,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation 'com.github.universe-software:multikit-parser:1.0.0'
+    implementation 'com.github.universe-software:multikit-parser:1.0.1'
 }
 ```
 
