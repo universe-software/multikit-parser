@@ -65,7 +65,7 @@ Add the Maven-compatible `https://jitpack.io` repository to your build.gradle(.k
 ```kotlin
 repositories {
     maven {
-        url = "https://jitpack.io"
+        url = uri("https://jitpack.io")
     }
 }
 ```
@@ -82,21 +82,21 @@ repositories {
 
 ### Add MultiKit Parser
 
-Add an implementation dependency on `com.github.universe-software:multikit-parser:1.0.0`:
+Add an implementation dependency on `com.github.universe-software:multikit-parser:1.0.2`:
 
 #### For KotlinScript DSL (`build.gradle.kts`)
 
 ```kotlin
 dependencies {
-    implementation("com.github.universe-software:multikit-parser:1.0.0")
+    implementation("com.github.universe-software:multikit-parser:1.0.2")
 }
 ```
 
 #### For Groovy DSL (`build.gradle`)
 
-```kotlin
+```groovy
 dependencies {
-    implementation 'com.github.universe-software:multikit-parser:1.0.1'
+    implementation 'com.github.universe-software:multikit-parser:1.0.2'
 }
 ```
 
